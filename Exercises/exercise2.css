@@ -1,0 +1,172 @@
+/* General Styling */
+.niconne-regular {
+  font-family: "Niconne", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unna-regular {
+  font-family: "Unna", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unna-bold {
+  font-family: "Unna", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.unna-regular-italic {
+  font-family: "Unna", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.unna-bold-italic {
+  font-family: "Unna", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+    font-family: "Unna", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #e9e8e0;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+/* Main Content */
+main {
+    width: 80%;
+    max-width: 700px;
+    margin-top: 20px;
+}
+
+/* Headings */
+h1 {
+    font-family: "Niconne", serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+    color:#364c84;
+}
+
+h2 {
+    font-family: "Unna", serif;
+  font-weight: 700;
+  font-style: italic;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 10px;
+    color:#364c84;
+}
+
+h3 {
+    font-family: "Niconne", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    margin-top: 15px;
+    color:#364c84;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.intro {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.highlight {
+    font-size: 1.1rem;
+    font-family: "Unna", serif;
+    font-weight: 400;
+    font-style: italic;
+    background-color: #c0cace;
+    padding: 10px;
+    border-left: 4px solid #364c84;
+}
+
+/* Flowing Columns */
+.columns {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.columns p {
+    flex: 1;
+    text-align: left;
+}
+
+/* Blockquote Styling */
+blockquote {
+    font-family: "Niconne", serif;
+  font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    margin: 20px;
+    font-size: 1.2rem;
+    color: #555;
+}
+section {
+    margin: 20px 0;
+}
+
+main {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* back button */
+#back-button-2 {
+    all:unset;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #364c84;
+    padding: 8px 12px;
+    border: 2px solid #364c84;
+    border-radius: 10px;
+    transition: background 0.3s, color 0.3s;
+}
+
+#back-button-2:hover {
+    background: #364c84;
+    color: #fff;
+}
